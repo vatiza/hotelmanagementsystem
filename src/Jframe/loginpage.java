@@ -127,6 +127,7 @@ public class loginpage extends javax.swing.JFrame {
 
     private void loginbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtnActionPerformed
         // TODO add your handling code here:
+        System.out.println("login btn click");
         homepage obj=new homepage();
         obj.show();
         dispose();
