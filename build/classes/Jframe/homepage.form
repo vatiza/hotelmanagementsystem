@@ -101,9 +101,12 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Employee"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="200" y="500" width="-1" height="-1"/>
+          <AbsoluteConstraints x="340" y="500" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -131,49 +134,49 @@
                 <Column editable="true" title="Room Number" type="java.lang.Object">
                   <Data value="B23"/>
                   <Data value="A45"/>
-                  <Data value="null"/>
+                  <Data value="B2"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title=" Name" type="java.lang.Object">
                   <Data value="Rakib"/>
                   <Data value="Eyamin"/>
-                  <Data value="null"/>
+                  <Data value="Mousumi"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Phone" type="java.lang.Object">
                   <Data value="234238"/>
                   <Data value="23534"/>
-                  <Data value="null"/>
+                  <Data value="23423"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Total Members" type="java.lang.Object">
                   <Data value="1"/>
                   <Data value="2"/>
-                  <Data value="null"/>
+                  <Data value="4"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Booking Date" type="java.lang.Object">
                   <Data value="07/05/2023"/>
                   <Data value="05/05/2023"/>
-                  <Data value="null"/>
+                  <Data value="05/05/2023"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Checkout Date" type="java.lang.Object">
                   <Data value="09/05/2023"/>
                   <Data value="08/04/2023"/>
-                  <Data value="null"/>
+                  <Data value="08/04/2023"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Nid" type="java.lang.Object">
                   <Data value="34234234"/>
                   <Data value="3465645"/>
-                  <Data value="null"/>
+                  <Data value="34242"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
@@ -197,6 +200,16 @@
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="570" y="500" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Remove Customer"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="160" y="500" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
